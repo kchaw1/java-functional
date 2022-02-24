@@ -2,6 +2,9 @@ package functionalinterface;
 
 import java.util.function.Predicate;
 
+/**
+ * javadoc : Represents a predicate (boolean-valued function) of one argument.
+ */
 public class _Predicate {
     public static void main(String[] args) {
 
@@ -30,9 +33,6 @@ public class _Predicate {
         return phoneNumber.startsWith("010") && phoneNumber.length() == 11;
     }
 
-    /**
-     * javadoc : Represents a predicate (boolean-valued function) of one argument.
-     */
     static Predicate<String> isPhoneNumberValidPredicate = phoneNumber ->
             phoneNumber.startsWith("010") && phoneNumber.length() == 11;
 
