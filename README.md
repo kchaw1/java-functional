@@ -39,6 +39,7 @@
 - 체크대상객체의 유효성을 체크하는 static 메소드들을 생성한다.
 - 각메소드를 연결하는 default method를 구현한다. 예제에서는 현재 유효성 체크가 True 일 경우
   인자로 받은 유효성 체크를 연결시키는 형태로 구현하였다.
+  https://github.com/kchaw1/java-functional/blob/635189ead849c46d8c805262ea2eee74fb87bb4b/src/main/java/combinatorpattern/CustomerRegistrationValidator.java#L1-L39
 
 ## Callback
 - 함수형 인터페이스를 메소드 인자로 설정하여 자바스크립트의 callback을 구현할 수 있다.
